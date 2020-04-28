@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quadrados e Nomes</title>
+</head>
+
+<style>
+  button {
+    color: rgb(0, 102, 255);
+    padding: 15px 10px;
+    font-size: 2em;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(0, 102, 255);
+    margin-bottom: 5px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: #fff;
+    background-color: rgb(0, 102, 255);
+  }
+
+  input {
+    padding: 15px 10px;
+    font-size: 2em;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(0, 102, 255);
+    margin-bottom: 5px;
+  }
+
+  ul {
+    font-size: 2em;
+  }
+</style>
+
+<body>
+  <button id="novo">Adicionar quadrado</button>
+
+  <div id="quadrados"></div>
+
+  <ul></ul>
+
+  <input type="text" name="nome">
+  <button onClick="adicionar()">Adicionar</button>
+
+  <script src="quadrados.js"></script>
+
+</body>
+
+</html>
